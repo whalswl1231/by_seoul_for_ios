@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BInfo" customModule="test" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="yyO-yH-Q3j" id="PZl-ch-4AG"/>
+                <outlet property="count" destination="Gdx-R5-2fh" id="KXt-Vs-2dG"/>
+                <outlet property="title" destination="ANh-B6-WGu" id="sW0-gn-6hb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="yyO-yH-Q3j">
+            <rect key="frame" x="0.0" y="0.0" width="209" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ANh-B6-WGu">
+                    <rect key="frame" x="0.0" y="15" width="209" height="21"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdx-R5-2fh">
+                    <rect key="frame" x="83" y="59" width="43" height="20.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.64448448159315064" green="0.86805397269999995" blue="0.8490800261" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ANh-B6-WGu" firstAttribute="top" secondItem="yyO-yH-Q3j" secondAttribute="top" constant="15" id="4rU-Q9-stS"/>
+                <constraint firstAttribute="trailing" secondItem="ANh-B6-WGu" secondAttribute="trailing" id="6ij-ho-ZwZ"/>
+                <constraint firstItem="ANh-B6-WGu" firstAttribute="leading" secondItem="yyO-yH-Q3j" secondAttribute="leading" id="8ti-Og-PqI"/>
+                <constraint firstItem="V7F-AI-Ih8" firstAttribute="trailing" secondItem="Gdx-R5-2fh" secondAttribute="trailing" constant="83" id="Dvs-mf-1o4"/>
+                <constraint firstItem="Gdx-R5-2fh" firstAttribute="centerX" secondItem="yyO-yH-Q3j" secondAttribute="centerX" id="Iia-Uy-dFd"/>
+                <constraint firstItem="Gdx-R5-2fh" firstAttribute="leading" secondItem="V7F-AI-Ih8" secondAttribute="leading" constant="83" id="dc9-Mz-Hl2"/>
+                <constraint firstItem="Gdx-R5-2fh" firstAttribute="top" secondItem="V7F-AI-Ih8" secondAttribute="top" constant="15" id="lie-4w-90R"/>
+                <constraint firstItem="ANh-B6-WGu" firstAttribute="centerX" secondItem="yyO-yH-Q3j" secondAttribute="centerX" id="p24-ex-Fqu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="V7F-AI-Ih8"/>
+            <point key="canvasLocation" x="-302.17391304347831" y="302.00892857142856"/>
+        </view>
+    </objects>
+</document>
